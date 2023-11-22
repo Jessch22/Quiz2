@@ -6,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 class MyHomePage extends ConsumerStatefulWidget {
   const MyHomePage({super.key});
 
-  static String routeName = '/';
+  static String routeName = '/main_screen';
 
   @override
   ConsumerState<MyHomePage> createState() => _MyHomePageState();

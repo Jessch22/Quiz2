@@ -36,7 +36,6 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
             ElevatedButton(
               onPressed: () {
                 setState(() {
-                  // FIXME: The counter is not updated in the main screen
                   counterProv.resetCounter();
                 });
               },
